@@ -4,7 +4,7 @@
 - [Mateusz Cegielski](https://github.com/MateuszCegielski)
 
 ## Website view ⛰️
-![Process of creating new note](https://github.com/AdamPiszczek/cloud-based-encrypted-notebook/media/website_view.gif)
+![Process of creating new note](https://github.com/AdamPiszczek/cloud-based-encrypted-notebook/blob/main/media/website_view.gif)
 
 ## Setup 🛠️
 - Linux 🐧 / macOS 🍎 version
