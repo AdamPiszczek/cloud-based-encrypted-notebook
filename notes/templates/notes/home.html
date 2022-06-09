@@ -1,0 +1,20 @@
+{% extends "notes/base.html" %}
+{% block content %}
+{% for note in notes %}
+{% if note.author == user %}
+<article class="media content-section">
+    <div class="media-body">
+        <div class="article-metadata">
+            <small class="text-muted">{{ note.date_posted|date:"F d, Y" }}</small>
+        </div>
+        <h2><a class="article-title" href="{% url 'note-detail' note.id %}">{{ note.title }}</a></h2>
+        <p class="article-content">{{ note.content }}</p>
+    </div>
+</article>
+{% endif %}
+{% endfor %}
+{% if not user.is_authenticated %}
+<h2>You're not logged in.</h2>
+<p><a href="{% url 'login' %}">Log in</a> to see your notes.</p>
+{% endif %}
+{% endblock content %}

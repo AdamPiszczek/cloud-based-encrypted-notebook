@@ -1,0 +1,15 @@
+certifi>=2018.10.15
+chardet>=3.0.4
+Django>=2.1
+django-crispy-forms>=1.7.2 #To install properly crispy-forms, use command: pip3 install --user django-crispy-forms
+idna>=2.7
+pytz>=2018.5
+requests>=2.19.1
+urllib3>=1.23
+bcrypt>=3.2.2
+psycopg2==2.9.3
+whitenoise==6.1.0
+django_cryptography>=1.1
+crypto-utils>=1.0.0
+python-dotenv==0.19.0
+django_password_validators>=1.7.0
